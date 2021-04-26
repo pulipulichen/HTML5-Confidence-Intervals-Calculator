@@ -14,13 +14,35 @@ and open the template in the editor.
 
 <link rel="stylesheet" href="style.css" />
         
-<link rel="stylesheet" href="//pulipulichen.github.io/blogger/posts/2016/12/semantic/semantic.min.css" />
+<link rel="stylesheet" href="vendors/semantic-ui/semantic.min.css" />
+<!--
 <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" />
+-->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/generator/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/generator/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/generator/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/generator/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/generator/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/generator/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/generator/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/generator/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/generator/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/generator/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/generator/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/generator/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/generator/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#2185D0">
+    <meta name="msapplication-TileImage" content="assets/favicon/generator/ms-icon-144x144.png">
+    <meta name="theme-color" content="#2185D0">
+    <link rel="manifest" href="./manifest.json">
+    
+    
     </head>
     <body>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-<script src="//pulipulichen.github.io/blogger/posts/2016/12/semantic/semantic.min.js"></script>
-<script src="http://pulipulichen.github.io/blogger/posts/2016/12/puli-util.clipboard.js"></script>
+<script src="vendors/jquery/jquery.min.js"></script>
+<script src="vendors/semantic-ui/semantic.min.js"></script>
+<script src="vendors/puli-util.clipboard.js"></script>
 <!--
 <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 -->
@@ -180,7 +202,7 @@ and open the template in the editor.
       <label for="preview">
         分析結果: 
         <button type="button" id="copy_source_code" class="hide">Copy Source Code</button>
-        <div class="ui  pointing below  medium blue basic label encoding" style="margin-left: 1em; display: none;">
+        <div class="ui pointing below  medium blue basic label encoding" style="margin-left: 1em; display: none;">
           Get error encoding text? <a href="http://blog.pulipuli.info/2016/12/utf-8notepad-how-to-convert-plain-text.html" target="notepad" >Try to Convert TXT file to UTF8 encoding?</a>
         </div>
       </label>
@@ -209,5 +231,6 @@ and open the template in the editor.
 
 </script>
 
+<script src="./service-worker-loader.js"></script>
     </body>
 </html>
